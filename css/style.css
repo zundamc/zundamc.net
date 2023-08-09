@@ -12,7 +12,7 @@ main {
 	flex-grow: 1;
 }
 
-.header {
+header {
 	padding: 10px 0 10px 0;
 	background-image: url(./img/background.png);
 	background-position: center;
