@@ -1,0 +1,48 @@
+:root {
+	--bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.header {
+	padding: 10px 0 10px 0;
+	background-image: url(./img/background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	text-shadow: 1px 1px 5px #000;
+}
+
+.bg-geyser-primary {
+	background-color: #008ab8;
+}
+
+.bg-twitter {
+	background-color: #1da1f2 !important;
+}
+
+.bg-discord {
+	background-color: #5865F2 !important;
+}
+
+.social-icon {
+	display: block;
+	height: 3rem;
+	width: 3rem;
+	line-height: 2.4rem;
+    font-size: 1.5rem;
+	transition: filter .15s ease-in-out;
+}
+
+.social-icon:hover {
+	filter: brightness(0.8);
+}
