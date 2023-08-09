@@ -46,3 +46,35 @@ main {
 .social-icon:hover {
 	filter: brightness(0.8);
 }
+.joinbtn
+{
+	background-image:url('/img/discord.png');
+	background-position: left center;
+  background-repeat: no-repeat;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	
+	background-color: #5865F2;
+	border-radius: 10px;
+	padding-block: 10px;
+	padding-right:10px;
+	padding-left: 70px;
+	
+}
+.wiki
+{
+	background-image:url('/img/docs.png');
+	background-position: left center;
+  background-repeat: no-repeat;
+	margin-top: 100px;
+	color: rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	
+	background-color: #cacaca;
+	border-radius: 10px;
+	padding-block: 10px;
+	padding-left:50px;
+	padding-right:10px;
+}
