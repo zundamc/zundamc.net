@@ -1,5 +1,7 @@
+@import url(fonts.css);
+
 html {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat';
 }
 
 body {
@@ -21,7 +23,7 @@ header {
 	text-shadow: 1px 1px 5px #000;
 }
 
-.bg-geyser-primary {
+.bg-blue {
 	background-color: #008ab8;
 }
 
@@ -44,56 +46,4 @@ header {
 
 .social-icon:hover {
 	filter: brightness(0.8);
-}
-
-.joinbtn {
-	background-image: url('/img/discord.png');
-	background-position: left center;
-	background-repeat: no-repeat;
-	color: white;
-	font-size: 40px;
-
-	background-color: #5865F2;
-	border-radius: 10px;
-	padding-block: 10px;
-	padding-right: 10px;
-	padding-left: 80px;
-
-}
-
-.wiki {
-	background-image: url('/img/docs.png');
-	background-position: left center;
-	background-repeat: no-repeat;
-	margin-top: 100px;
-	color: rgb(0, 0, 0);
-	font-size: 40px;
-
-	background-color: #cacaca;
-	border-radius: 10px;
-	padding-block: 10px;
-	padding-left: 60px;
-	padding-right: 10px;
-}
-
-.qa {
-	margin-top: 300px;
-}
-
-.err {
-	margin-top: 00px;
-}
-.stfrq {
-	background-image: url('/img/stfrq.png');
-	background-position: left;
-	background-repeat: no-repeat;
-	margin-top: 100px;
-	color: rgb(0, 0, 0);
-	font-size: 40px;
-
-	background-color: #cacaca;
-	border-radius: 10px;
-	padding-block: 10px;
-	padding-left: 60px;
-	padding-right: 10px;
 }
