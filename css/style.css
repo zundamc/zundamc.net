@@ -83,3 +83,17 @@ header {
 .err {
 	margin-top: 00px;
 }
+.stfrq {
+	background-image: url('/img/stfrq.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+
+	background-color: #cacaca;
+	border-radius: 10px;
+	padding-block: 10px;
+	padding-left: 60px;
+	padding-right: 10px;
+}
