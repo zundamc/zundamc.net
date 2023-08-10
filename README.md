@@ -1,2 +1,2 @@
 # zundamc.net
-zundamc.netの中身
+https://zundamc.net
