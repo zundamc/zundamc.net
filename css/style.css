@@ -95,3 +95,15 @@ header {
 .social-icon:hover {
 	filter: brightness(0.8);
 }
+
+/* custom scrollbar */
+/*あとは直しといてクレメンスBy pi-mannnokanzumee*/
+::-webkit-scrollbar{
+   width: 10px;
+}
+::-webkit-scrollbar-track{
+   background-color: #2b3035;
+}
+::-webkit-scrollbar-thumb{
+   background-color: #3BBCB3;
+}
