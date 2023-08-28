@@ -107,3 +107,20 @@ header {
 ::-webkit-scrollbar-thumb{
    background: linear-gradient(#90ee90, rgb(123, 255, 123));
 }
+
+.btn-tertiary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6200ff;
+    --bs-btn-border-color: #6200ff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6200ff;
+    --bs-btn-hover-border-color: #6e14ff;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6e14ff;
+    --bs-btn-active-border-color: #6200ff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6200ff;
+    --bs-btn-disabled-border-color: #6200ff;
+}
